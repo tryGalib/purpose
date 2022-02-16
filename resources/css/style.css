@@ -1,0 +1,72 @@
+.flag {
+  width: 18px;
+  margin-right: 8px;
+}
+
+body {
+  background-color: #333;
+}
+
+/* .top-nav-left-items {
+  display: inline-flex;
+  align-items: center;
+} */
+
+.top-nav-left-items ul {
+  padding: 0 !important;
+  margin: 0!important;
+}
+
+.top-nav-left-items li {
+  list-style-type: none;
+}
+
+.top-nav-left-items li .dropdown-toggle {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.top-nav-left-items .navbar-text {
+  margin-right: 1.5rem;
+}
+
+.top-nav-left-items .dropdown-toggle::after {
+  display: none;
+}
+
+.top-nav-right-items a {
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.top-nav-right-items ul {
+  padding: 0 !important;
+  margin: 0!important;
+}
+
+.top-nav-right-items ul li {
+  list-style-type: none;
+}
+
+.top-nav-right-items li .dropdown-toggle {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.top-nav-right-items .dropdown-toggle::after {
+  display: none;
+}
+
+.top-nav-right-items .dropdown-menu a {
+  margin: 0;
+  text-align: left;
+}
+
+.top-nav-right-items .dropdown-menu a i {
+  padding-right: 15px;
+}
+
+.top-nav-right-items .dropdown-menu-sm {
+  min-width: 10rem !important;
+  border: 0.2rem;
+}

@@ -22,14 +22,16 @@
   <link rel="stylesheet" href="vendors/css/normalize.css">
   <!-- Main CSS -->
   <link rel="stylesheet" href="resources/css/style.css">
+  <!-- Media Queries -->
+  <link rel="stylesheet" href="resources/css/queries.css">
 </head>
 
 <body>
 
 
   <header>
-    <nav class="navbar top-nav navbar-light bg-light fixed-top">
-      <div class="container">
+    <div class="navbar top-nav navbar-light bg-light fixed-top">
+      <div class="container px-sm-0">
         <div class="top-nav-left-items">
           <span class="navbar-text d-none d-lg-inline-block">Purpose - Website UI Kit</span>
           <div class="d-inline-block">
@@ -113,7 +115,85 @@
 
         </div>
       </div>
+    </div>
+    <br><hr>
+
+
+
+
+
+
+
+    <!-- Main Navbar Start -->
+
+    <nav class="navbar main-nav navbar-expand-lg navbar-light bg-light">
+      <div class="container px-sm-0">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Overview</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Sections
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Docs
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">What's new</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-secondary" href="#"><i class="fas fa-shopping-cart pe-2"></i>Purchase now</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
+
+    <!-- Main Navbar End -->
+
+
+
+
+
+
+
+
+
+
   </header>
 
 

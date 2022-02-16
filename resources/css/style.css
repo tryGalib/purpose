@@ -1,16 +1,32 @@
+/* Common CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Reusable Components */
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 .flag {
   width: 18px;
   margin-right: 8px;
 }
 
+
+
+
+
+
+
 body {
   background-color: #333;
 }
-
-/* .top-nav-left-items {
-  display: inline-flex;
-  align-items: center;
-} */
 
 .top-nav-left-items ul {
   padding: 0 !important;
@@ -70,3 +86,8 @@ body {
   min-width: 10rem !important;
   border: 0.2rem;
 }
+
+
+
+
+
